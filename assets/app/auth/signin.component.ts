@@ -10,7 +10,7 @@ export class SigninComponent {
   myForm: FormGroup;
 
   onSubmit() {
-    console.log(this.myForm);
+
     this.myForm.reset();
   }
 
